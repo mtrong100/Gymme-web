@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Gymme-web/static/css/main.3254e0b2.css",
+    "main.js": "/Gymme-web/static/js/main.df8de55b.js",
+    "static/media/pt5.png": "/Gymme-web/static/media/pt5.b5e3a8a651ffa6f32960.png",
+    "static/media/pt3.png": "/Gymme-web/static/media/pt3.d1aade3aecb80a97fafe.png",
+    "static/media/bg.png": "/Gymme-web/static/media/bg.aa9add829b9ddaab15ca.png",
+    "static/media/pt6.png": "/Gymme-web/static/media/pt6.7e8b558c015b90dd6b5d.png",
+    "static/media/woman.png": "/Gymme-web/static/media/woman.afe487a6399eecfa1aa7.png",
+    "static/media/pt1.png": "/Gymme-web/static/media/pt1.aba59fa507f7136877e3.png",
+    "static/media/pt4.png": "/Gymme-web/static/media/pt4.9dca1fd398fa734641ea.png",
+    "static/media/battle-rope.png": "/Gymme-web/static/media/battle-rope.f0e838feb90e5240e67b.png",
+    "static/media/fitness.png": "/Gymme-web/static/media/fitness.40c4aecb2995e4d21467.png",
+    "static/media/body-pump.png": "/Gymme-web/static/media/body-pump.db655530d82349eb4cbb.png",
+    "static/media/yoga.png": "/Gymme-web/static/media/yoga.e95806de96273a0c68d4.png",
+    "static/media/full-body.png": "/Gymme-web/static/media/full-body.88337db51a52afbb3ceb.png",
+    "static/media/resistance.png": "/Gymme-web/static/media/resistance.011df5b9669edc4f464d.png",
+    "static/media/boxing.png": "/Gymme-web/static/media/boxing.04062eac3922c5d3517d.png",
+    "static/media/pt2.png": "/Gymme-web/static/media/pt2.aad51f19d9563219bead.png",
+    "static/media/logo.svg": "/Gymme-web/static/media/logo.ec379985c40750207317b25c0cf477ae.svg",
+    "static/media/calendar.svg": "/Gymme-web/static/media/calendar.316d9eb39b360280ca6b5027f5462a62.svg",
+    "static/media/price.svg": "/Gymme-web/static/media/price.99fc6d830c98a274d69675502dec0aac.svg",
+    "static/media/users-icn.svg": "/Gymme-web/static/media/users-icn.1c1181836b52f949c1de5db01fcd212e.svg",
+    "static/media/question-mark.svg": "/Gymme-web/static/media/question-mark.ac78e0f4921dbec4cdd8586294a5bb5d.svg",
+    "index.html": "/Gymme-web/index.html",
+    "main.3254e0b2.css.map": "/Gymme-web/static/css/main.3254e0b2.css.map",
+    "main.df8de55b.js.map": "/Gymme-web/static/js/main.df8de55b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3254e0b2.css",
+    "static/js/main.df8de55b.js"
+  ]
+}
