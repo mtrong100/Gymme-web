@@ -1,11 +1,19 @@
 import React, { useState } from "react";
 import { IoIosArrowUp } from "react-icons/io";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const Accordions = ({ question, answer }) => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="bg-[#F7F1E5] rounded-md">
+    <div
+      data-aos="fade-up"
+      data-aos-easing="linear"
+      data-aos-duration="300"
+      className="bg-[#F7F1E5] rounded-md"
+    >
       {/* title */}
       <div
         onClick={() => setOpen(!open)}

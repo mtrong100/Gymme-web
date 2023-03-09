@@ -3,6 +3,10 @@ import Heading from "../Heading";
 import userIcon from "../../images/icons/users-icn.svg";
 import { about } from "../../Data";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
+
 const Misson = () => {
   const { title, subtitle1, subtitle2, link, image } = about;
 
@@ -11,7 +15,11 @@ const Misson = () => {
       <div className="wrapper">
         <Heading image={userIcon}>{title}</Heading>
         <div className="mt-10 grid md:grid-cols-2 gap-4 items-center">
-          <div>
+          <div
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="300"
+          >
             <h1 className="text-3xl md:text-5xl text-third font-bold mb-5 md:mb-10">
               Make yourself proud.
             </h1>
@@ -23,7 +31,12 @@ const Misson = () => {
               <BsFillArrowRightCircleFill></BsFillArrowRightCircleFill>
             </div>
           </div>
-          <div className="img-wrapper group mt-8">
+          <div
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+            className="img-wrapper group mt-8"
+          >
             <img className="img-cover" src={image} alt="img-1" />
           </div>
         </div>

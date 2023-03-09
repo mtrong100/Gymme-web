@@ -1,5 +1,8 @@
 import React from "react";
 import { AiFillCheckCircle } from "react-icons/ai";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const PlanList = ({ plans }) => {
   return (
@@ -8,7 +11,12 @@ const PlanList = ({ plans }) => {
         const { name, price, list } = item;
         return (
           <div className="rounded-md md:max-w-[600px] w-full mx-auto" key={id}>
-            <div className="flex py-8 gap-5 relative z-[1] overflow-hidden bg-slate-50 group rounded-md card transition-all duration-500 flex-col items-center justify-center ">
+            <div
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="500"
+              className="flex py-8 gap-5 relative z-[1] overflow-hidden bg-slate-50 group rounded-md card transition-all duration-500 flex-col items-center justify-center "
+            >
               {/* top */}
               <div>
                 <h1 className="text-2xl group-hover:text-primary px-8 py-2 font-bold rounded-md mb-6">

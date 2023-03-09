@@ -1,6 +1,5 @@
 import React from "react";
 import { join } from "../../Data";
-import Heading from "../Heading";
 
 const Contact = () => {
   const { image, title, subtitle, btnText } = join;
