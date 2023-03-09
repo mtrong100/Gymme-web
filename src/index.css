@@ -1,13 +1,41 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    transition: 0.2s linear;
+  }
+  body {
+    @apply font-primary bg-[#E8E2E2];
+  }
+  .wrapper {
+    @apply max-w-[1170px] px-[15px] mx-auto;
+  }
+  .img-cover {
+    @apply w-full h-full object-cover rounded-md group-hover:scale-110 transition-all duration-500;
+  }
+  .img-cover-2 {
+    @apply w-full h-full object-contain rounded-md group-hover:scale-105 transition-all duration-500;
+  }
+  .img-wrapper {
+    @apply overflow-hidden rounded-br-[100px] border-[6px] border-solid border-primary rounded-tl-[100px] rounded-md shadow-xl;
+  }
+  .img-wrapper-2 {
+    @apply overflow-hidden rounded-br-[50%] border-[6px] border-solid hover:border-white border-primary rounded-tl-[50%] rounded-md shadow-xl;
+  }
+  .style-btn {
+    @apply uppercase rounded-br-[30px] rounded-tl-[30px] px-8 py-3 rounded-sm font-semibold inline-block transition-all duration-500;
+  }
+  .style-btn-2 {
+    @apply uppercase px-8 py-4 rounded-full font-semibold inline-block transition-all duration-500;
+  }
+  .overlay {
+    @apply bg-black bg-opacity-70 absolute w-full left-0 top-0 right-0 bottom-0 group-hover:opacity-100 opacity-0 h-full transition-all duration-300;
+  }
+  .slider-content {
+    @apply absolute text-center w-full top-[80%] left-2/4 opacity-0 transform -translate-x-1/2 -translate-y-1/2 transition-all duration-500 group-hover:opacity-100 group-hover:top-2/4 group-hover:left-2/4;
+  }
 }
